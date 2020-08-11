@@ -20,12 +20,11 @@ public class exercise_lab2_1 {
 
         //finding
         int total = a + b + c + d + f;
-        int avy = total / 5;
-
+        int avg = total / 5;
 
         //dispaly
-        //ystem.out.println("total = " +total);
-        //System.out.println("Average = " +avg);
+        System.out.println("total = " +total);
+        System.out.println("Average = " +avg);
 
 
     }
