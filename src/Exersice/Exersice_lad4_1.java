@@ -52,10 +52,6 @@ public class Exersice_lad4_1 {
 
         }
 
-
-
-
-
     }
     //triangle
     public static double findArea (double b, double h ){
@@ -69,7 +65,5 @@ public class Exersice_lad4_1 {
     //Circle
     public static double findAeraCircle (double r){
         return 2 * PI * r;
-
-
     }
 }//class
