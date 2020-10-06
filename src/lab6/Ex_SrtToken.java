@@ -19,8 +19,5 @@ public class Ex_SrtToken {
             System.out.println(myToken.nextToken());
         }
 
-
-
-
     }
 }
