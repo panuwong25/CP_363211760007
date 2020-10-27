@@ -16,11 +16,15 @@ public class ExFinally {
                 System.out.println(txt);
             }//while
         } catch (FileNotFoundException e) {
-            System.out.println("Fine conld not found.");
+            System.out.println("File could not found.");
             e.printStackTrace();
         } catch (IOException e) {
-            System.out.println("Can not read text from fine.");
+            System.out.println("Could not read text from file.");
             e.printStackTrace();
+        }finally{
+            // connect DE
+           // close connection
+            System.out.println("Test Finally.");
         }
 
 
